@@ -1,11 +1,11 @@
 {
     "name": "Triple Roll",
     "author": "eluca31-cpu",
-    "version": "1.0.7",
-    "description": "All In One dice",
+    "version": "1.0.9",
+    "description": "Adder and multiplier dice",
     "dice": [
         {
-            "ide": "all_in_one_die",
+            "ide": "adder_die",
             "rarity": 1,
             "prio": 10,
             "sprite": "sprites/triple_roll_die.png",
@@ -18,11 +18,11 @@
             "tag": ["faces_even"],
             "kw": ["face"],
             "effect": { "type": "add_value_all", "value": 2e57 },
-            "title": "All In One",
+            "title": "Adder",
             "description": "Adds 2 octodecillion value to every die on the table."
         },
         {
-            "ide": "all_in_one_mult_die",
+            "ide": "multiplier_die",
             "rarity": 1,
             "prio": 10,
             "sprite": "sprites/triple_roll_die.png",
@@ -35,7 +35,7 @@
             "tag": ["faces_even"],
             "kw": ["face"],
             "effect": { "type": "mult_all", "value": 1e15 },
-            "title": "All In One Multiplier",
+            "title": "Multiplier",
             "description": "Multiplies every die on the table by 1 quadrillion."
         }
     ],
