@@ -1,7 +1,7 @@
 {
     "name": "Triple Roll",
     "author": "eluca31-cpu",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Adds a die that copies and rerolls every die on the table 3 times",
     "dice": [
         {
