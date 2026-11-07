@@ -17,7 +17,7 @@
             "faces_desc": "[spr_dice_icon,0] 1/2/3",
             "tag": ["faces_even"],
             "kw": ["face"],
-            "effect": { "type": "copy_other_rolled", "value": 3 },
+            "effect": { "type": "retrigger_all", "value": 3 },
             "title": "Triple Roll Die",
             "description": "Copies and rolls all dice on the table 3 times."
         }
