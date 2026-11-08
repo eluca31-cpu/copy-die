@@ -1,42 +1,42 @@
 {
     "name": "Triple Roll",
     "author": "eluca31-cpu",
-    "version": "1.1.0",
-    "description": "Adder and multiplier dice",
+    "version": "1.1.6",
+    "description": "Triple T Die and Verity Die",
     "dice": [
         {
             "ide": "adder_die",
             "rarity": 1,
             "prio": 10,
-            "sprite": "sprites/triple_roll_die.png",
+            "sprite": "sprites/face_die_full.png",
             "faces": [
                 {"value": 0},
                 {"value": 0},
                 {"value": 0}
             ],
-            "faces_desc": "[spr_dice_icon,0] +1e210 value to all",
+            "faces_desc": "[spr_dice_icon,0] +1e190 value to all",
             "tag": ["faces_even"],
             "kw": ["face"],
-            "effect": { "type": "add_value_all", "value": 1e210 },
-            "title": "Adder",
-            "description": "Adds 1e210 value to every die on the table."
+            "effect": { "type": "add_value_all", "value": 1e190 },
+            "title": "TRIPLE T DIE",
+            "description": "I am a super cool die that gives you +1e190 value on every die on the table."
         },
         {
             "ide": "multiplier_die",
             "rarity": 1,
             "prio": 10,
-            "sprite": "sprites/triple_roll_die.png",
+            "sprite": "sprites/smile_die_full.png",
             "faces": [
                 {"value": 0},
                 {"value": 0},
                 {"value": 0}
             ],
-            "faces_desc": "[spr_dice_icon,0] x1e200 to all",
+            "faces_desc": "[spr_dice_icon,0] x1e150 to all",
             "tag": ["faces_even"],
             "kw": ["face"],
-            "effect": { "type": "mult_all", "value": 1e200 },
-            "title": "Multiplier",
-            "description": "Multiplies every die on the table by 1e200."
+            "effect": { "type": "mult_all", "value": 1e150 },
+            "title": "VERITY DIE",
+            "description": "I am a super cool die that gives you a x1e150 multiplier on every die on the table."
         }
     ],
     "rings": []
