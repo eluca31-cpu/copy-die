@@ -1,7 +1,7 @@
 {
     "name": "Triple Roll",
     "author": "eluca31-cpu",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "description": "Adder and multiplier dice",
     "dice": [
         {
@@ -14,12 +14,12 @@
                 {"value": 0},
                 {"value": 0}
             ],
-            "faces_desc": "[spr_dice_icon,0] +2 octodecillion value to all",
+            "faces_desc": "[spr_dice_icon,0] +1e210 value to all",
             "tag": ["faces_even"],
             "kw": ["face"],
-            "effect": { "type": "add_value_all", "value": 2e57 },
+            "effect": { "type": "add_value_all", "value": 1e210 },
             "title": "Adder",
-            "description": "Adds 2 octodecillion value to every die on the table."
+            "description": "Adds 1e210 value to every die on the table."
         },
         {
             "ide": "multiplier_die",
@@ -31,12 +31,12 @@
                 {"value": 0},
                 {"value": 0}
             ],
-            "faces_desc": "[spr_dice_icon,0] x1 quadrillion to all",
+            "faces_desc": "[spr_dice_icon,0] x1e200 to all",
             "tag": ["faces_even"],
             "kw": ["face"],
-            "effect": { "type": "mult_all", "value": 1e15 },
+            "effect": { "type": "mult_all", "value": 1e200 },
             "title": "Multiplier",
-            "description": "Multiplies every die on the table by 1 quadrillion."
+            "description": "Multiplies every die on the table by 1e200."
         }
     ],
     "rings": []
