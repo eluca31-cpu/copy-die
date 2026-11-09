@@ -10,9 +10,9 @@
             "prio": 10,
             "sprite": "sprites/face_die_full.png",
             "faces": [
-                {"value": 0},
-                {"value": 0},
-                {"value": 0}
+                {"value": 1000},
+                {"value": 10000},
+                {"value": 100000}
             ],
             "faces_desc": "[spr_dice_icon,0] +1e190 value to all",
             "tag": ["faces_even"],
@@ -27,9 +27,9 @@
             "prio": 10,
             "sprite": "sprites/smile_die_full.png",
             "faces": [
-                {"value": 0},
-                {"value": 0},
-                {"value": 0}
+                {"value": 1001},
+                {"value": 1002},
+                {"value": 100000}
             ],
             "faces_desc": "[spr_dice_icon,0] x1e150 to all",
             "tag": ["faces_even"],
