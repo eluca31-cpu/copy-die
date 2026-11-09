@@ -1,7 +1,7 @@
 {
     "name": "Triple Roll",
     "author": "eluca31-cpu",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "description": "Triple T Die and Verity Die",
     "dice": [
         {
@@ -19,7 +19,7 @@
             "kw": ["face"],
             "effect": { "type": "add_value_all", "value": 1e190 },
             "title": "TRIPLE T DIE",
-            "description": "I am a super cool die that gives you +1e190 value on every die on the table."
+            "description": "Adds +1e190 to every die. Don't use both of my dice on bosses or the game crashes. Use only one."
         },
         {
             "ide": "multiplier_die",
@@ -36,7 +36,7 @@
             "kw": ["face"],
             "effect": { "type": "mult_all", "value": 1e150 },
             "title": "VERITY DIE",
-            "description": "I am a super cool die that gives you a x1e150 multiplier on every die on the table."
+            "description": "Multiplies every die by 1e150. Don't use both of my dice on bosses or the game crashes. Use only one."
         }
     ],
     "rings": []
